@@ -24,28 +24,28 @@
             android:textSize="69sp" />
 
 
-
-        <Button
-            android:id="@+id/button"
+        <ImageButton
+            android:id="@+id/imageButton"
             android:layout_width="350dp"
             android:layout_height="60dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="269dp"
             android:background="@drawable/curvededge"
+            android:backgroundTint="#F50057"
             android:fontFamily="@font/alata"
             android:text="Log in"
             android:textSize="20sp"
-            android:theme="@style/"/>
+            android:tint="#3D5AFE" />
 
-        <Button
-            android:id="@+id/button2"
+        <ImageButton
+            android:id="@+id/imageButton2"
             android:layout_width="350dp"
             android:layout_height="60dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="50dp"
             android:background="@drawable/curvededge"
             android:fontFamily="@font/alata"
-            android:text="Sign up"
+            android:text="sign up"
             android:textSize="20sp" />
     </LinearLayout>
 
