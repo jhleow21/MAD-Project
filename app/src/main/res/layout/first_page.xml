@@ -23,20 +23,23 @@
             android:textColor="#FEFEFE"
             android:textSize="69sp" />
 
+
+
         <Button
             android:id="@+id/button"
-            android:layout_width="300dp"
+            android:layout_width="350dp"
             android:layout_height="60dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="269dp"
             android:background="@drawable/curvededge"
             android:fontFamily="@font/alata"
             android:text="Log in"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:theme="@style/"/>
 
         <Button
             android:id="@+id/button2"
-            android:layout_width="300dp"
+            android:layout_width="350dp"
             android:layout_height="60dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="30dp"
